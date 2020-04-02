@@ -219,7 +219,7 @@ function claim($token)
     }
      function pengen($token)
     {
-    $data = '{"promo_code":"GOFOOD022620A"}';    
+    $data = '{"promo_code":"COBAGOFOOD010420A"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
